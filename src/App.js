@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const App = () => {
+export const App = () => {
   const [data, setData] = useState(null);
   const [toggle, setToggle] = useState(false);
   const [inputValue, seInputValue] = useState(false);
@@ -28,5 +28,3 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
